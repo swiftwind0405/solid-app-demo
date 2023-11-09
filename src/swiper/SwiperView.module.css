@@ -1,0 +1,24 @@
+.Wrap {
+}
+
+.Content {
+    margin: 50px 100px;
+    background-color: antiquewhite;
+
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    transition: transform 0ms ease-in-out;
+}
+.Item {
+    height: 200px;
+    outline: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
